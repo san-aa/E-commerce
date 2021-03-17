@@ -1,0 +1,269 @@
+.single-box{
+    text-align: center !important;
+    
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  /* MEDIA QUERY FOR SLIDERS */
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .sliderImg img {
+        height: 33.87rem;
+    }
+    div.carousel-caption h1{
+        font-size: 4.5rem;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 1200px) {
+    .sliderImg img{
+        height: 26rem;
+    }
+    div.carousel-caption h1{
+        font-size: 4rem;
+    }
+    .carousel-caption p{
+        display: none;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 992px) {
+    .sliderImg img{
+        height: 24rem;
+    }
+    .carousel-caption p{
+        display: none;
+    }
+    div.carousel-caption h1{
+        font-size: 40px;
+    }
+    div.carousel-caption h4{
+        font-size: 25px;
+    }
+    /* BANNER ADS */
+    .banner{
+        
+
+    }
+   
+   
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 768px) {
+    .sliderImg img{
+     
+        height: 20rem;
+    }
+    div.carousel-caption h1{
+        font-size: 35px;
+    }
+    div.carousel-caption h4{
+        font-size: 20px;
+    }
+   /* BANNER */
+.columnBanner img{ 
+    display: none;
+}
+   
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) 
+{
+    .sliderImg img{
+        height: 200px;
+    }
+    div.carousel-caption h1{
+        font-size: 22px;
+    }
+    div.carousel-caption h4{
+        display: none;
+    }
+/* BANNER */
+.columnBanner img{ 
+    display: none;
+}
+
+}
+
+/* NAVBAR */
+.navbar{
+    background-color: #303030!important;
+    color: white !important;
+   
+}
+.dropdown-menu{
+  background-color:#a9a9a9!important;
+}
+.nav-link{
+    color: white !important;
+    font-weight: bold;
+    
+}
+#logo
+{
+   
+    font-weight: bold;
+    color: white !important;
+}
+
+/* NAVBAR */
+
+/* SLIDER */
+/* Moving Slider Heading to Center */
+.carousel-caption{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.carousel-caption h1{
+    font-size: 500%;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 15px #000;
+}
+
+.carousel-caption h4{
+    font-size: 200%;
+    font-weight: 500;
+    text-shadow: 1px 1px 10px #000;
+    
+}
+.carousel-caption p{
+    font-size: 100%;
+    font-weight: 400;
+}
+.nav-link:hover{
+    color: gray !important;
+    font-weight: bold;
+    
+}
+#btn1{
+    color: white !important;
+    border: 2px solid white !important;
+    width: 150px;
+}
+/* TOP SALE */
+/* #saleId{
+    margin-top: 10px;
+    
+} */
+
+/* BANNER ADS */
+
+.columnBanner {
+    float: left;
+    width: 50%;
+    padding: 5px;
+
+  }
+
+  .rowBanner  {
+    display: flex;
+  }
+  
+  .columnBanner  {
+    flex: 50%;
+    padding: 5px;
+  }
+  @media screen and (max-width: 767px) {
+    .columnBanner {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+
+  
+/* SPECIAL PRICES */
+#sp1,#sp2,#sp3,#sp4,#sp5,#sp6,#sp7,#sp8{
+    border: 1px solid gainsboro;
+    border-radius: 2px;
+
+ }
+.forMargin{
+    margin-top: 15px;
+}
+/* BLOG */
+.forPadding{
+    padding-bottom: 3rem;
+}
+.blogPara{
+    padding-top: 15px;
+}
+.blogHeading{
+    padding:20px;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  /* Float four columns side by side */
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding in columns */
+  /* .row {margin: 0 -5px;} */
+
+  /* Responsive columns - one column layout (vertical) on small screens */
+  @media screen and (max-width: 767px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+
+  /* FOOTER */
+  footer{
+    background-color: #3f3f3f;
+    padding-top: 2rem;
+    color: white;
+}
+hr.light{
+    border-top: 1px solid #d5d5d5;
+}
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* Product html */
+/* PRODUCT */
+#productBtn,#productBtn2{
+    width: 150px !important;
+}
+/* POLICY */
+#policyIcons,#policyIcons2
+{
+    color: #008b8b !important;
+    font-size: 23px;
+    border: 0.5px solid #d5d5d5;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+}
+.fa-retweet{
+    text-align: center !important;
+}
+.mainPolicy{
+    margin-right: 2rem;
+}
+
+/* ABOUT US */
+/* CONTACT US */
+.aboutUs,.contactUs
+{
+        background-color: #f4f4f4;
+      
+}
+.about{
+    text-decoration: underline;
+}
+
+
+
+
